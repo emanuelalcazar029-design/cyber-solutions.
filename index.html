@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CYBER SOLUTIONS | Servicio Técnico</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #172033;
+}
+
+header {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    color: #20a4ff;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 55px;
+    font-weight: bold;
+    color: #20a4ff;
+}
+
+nav {
+    background: #087bd3;
+    padding: 17px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #071b35;
+}
+
+section {
+    padding: 45px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #087bd3;
+    text-align: center;
+    font-size: 30px;
+}
+
+.presentacion {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.boton {
+    display: inline-block;
+    background: #087bd3;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background: #071b35;
+}
+
+.servicios, .precios, .ventajas, .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background: white;
+    padding: 23px;
+    border-radius: 12px;
+    flex: 1 1 260px;
+    box-shadow: 0 3px 10px #cbd5e1;
+    text-align: center;
+}
+
+.tarjeta h3 {
+    color: #087bd3;
+}
+
+.icono {
+    font-size: 45px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background: #087bd3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #e5f2fc;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contacto {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    line-height: 2;
+    box-shadow: 0 3px 10px #cbd5e1;
+}
+
+footer {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer strong {
+    color: #20a4ff;
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        margin: 6px;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="inicio">
+
+    <div class="logo">CS</div>
+
+    <h1>CYBER SOLUTIONS</h1>
+
+    <h3>Tu tecnología, nuestra misión.</h3>
+
+    <p>Servicio técnico y soluciones informáticas.</p>
+
+    <a href="#servicios" class="boton">
+        Conoce nuestros servicios
+    </a>
+
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#precios">Precios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<!-- INICIO -->
+<section class="presentacion">
+
+    <h2>Bienvenidos a CYBER SOLUTIONS</h2>
+
+    <p>
+    Somos una empresa dedicada al mantenimiento, diagnóstico
+    y reparación de equipos tecnológicos. Ofrecemos soluciones
+    para que tus dispositivos funcionen correctamente.
+    </p>
+
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+
+    <h2>¿Quiénes somos?</h2>
+
+    <p>
+    CYBER SOLUTIONS es una empresa de soporte técnico que busca
+    brindar servicios de calidad a personas que necesitan
+    mantenimiento o reparación de sus equipos tecnológicos.
+    </p>
+
+    <div class="servicios">
+
+        <div class="tarjeta">
+            <h3>Nuestra misión</h3>
+
+            <p>
+            Brindar servicios de mantenimiento y reparación
+            tecnológica con responsabilidad, calidad y compromiso.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Nuestra visión</h3>
+
+            <p>
+            Ser una empresa reconocida por ofrecer soluciones
+            tecnológicas confiables en nuestra comunidad.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+
+    <h2>Nuestros servicios</h2>
+
+    <div class="servicios">
+
+        <div class="tarjeta">
+            <div class="icono">💻</div>
+            <h3>Computadoras</h3>
+            <p>Diagnóstico, reparación de hardware y software.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">🖥️</div>
+            <h3>Laptops</h3>
+            <p>Limpieza, mantenimiento y revisión de componentes.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">🖨️</div>
+            <h3>Impresoras</h3>
+            <p>Limpieza, mantenimiento y solución de fallas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">📱</div>
+            <h3>Celulares y tablets</h3>
+            <p>Diagnóstico, configuración y soporte técnico.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">⚙️</div>
+            <h3>Instalación de programas</h3>
+            <p>Instalación de sistemas operativos y controladores.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">🔧</div>
+            <h3>Mantenimiento</h3>
+            <p>Mantenimiento preventivo y correctivo.</p>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">💾</div>
+            <h3>Respaldo de información</h3>
+            <p>Copias de seguridad y organización de archivos.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PRECIOS -->
+<section id="precios">
+
+    <h2>Precios aproximados</h2>
+
+    <p style="text-align:center;">
+    Consulta nuestros precios de referencia.
+    El costo final depende del diagnóstico del equipo.
+    </p>
+
+    <table>
+
+        <tr>
+            <th>Servicio</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr>
+            <td>Diagnóstico de computadora</td>
+            <td>$100 MXN</td>
+        </tr>
+
+        <tr>
+            <td>Mantenimiento de laptop</td>
+            <td>$350 MXN</td>
+        </tr>
+
+        <tr>
+            <td>Mantenimiento de computadora</td>
+            <td>$300 MXN</td>
+        </tr>
+
+        <tr>
+            <td>Limpieza de impresora</td>
+            <td>$250 MXN</td>
+        </tr>
+
+        <tr>
+            <td>Instalación de programas</td>
+            <td>$150 MXN</td>
+        </tr>
+
+        <tr>
+            <td>Respaldo de información</td>
+            <td>Desde $200 MXN</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+
+    <h2>Galería tecnológica</h2>
+
+    <p style="text-align:center;">
+    Conoce algunos de los equipos y herramientas relacionados
+    con nuestros servicios.
+    </p>
+
+    <div class="galeria">
+
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600"
+        alt="Componentes de computadora">
+
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600"
+        alt="Computadora portátil">
+
+        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=600"
+        alt="Impresora">
+
+    </div>
+
+</section>
+
+<!-- VENTAJAS -->
+<section id="ventajas">
+
+    <h2>¿Por qué elegirnos?</h2>
+
+    <div class="ventajas">
+
+        <div class="tarjeta">
+            <h3>Atención responsable</h3>
+            <p>Tratamos cada equipo con cuidado y responsabilidad.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Precios accesibles</h3>
+            <p>Buscamos ofrecer costos justos y transparentes.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Soluciones confiables</h3>
+            <p>Buscamos resolver los problemas de cada dispositivo.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Atención cercana</h3>
+            <p>Ofrecemos atención a nuestra comunidad y alrededores.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- UBICACIÓN -->
+<section id="ubicacion">
+
+    <h2>Nuestra ubicación</h2>
+
+    <div class="tarjeta">
+
+        <h3>📍 El Camarón</h3>
+
+        <p>
+        Nejapa de Madero, Yautepec,
+        Oaxaca, México.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- HORARIOS -->
+<section id="horarios">
+
+    <h2>Horarios de atención</h2>
+
+    <div class="tarjeta">
+
+        <p><strong>Lunes a viernes:</strong> 9:00 AM - 6:00 PM</p>
+
+        <p><strong>Sábado:</strong> 9:00 AM - 2:00 PM</p>
+
+        <p><strong>Domingo:</strong> Cerrado</p>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+
+    <h2>Contáctanos</h2>
+
+    <div class="contacto">
+
+        <p><strong>Empresa:</strong> CYBER SOLUTIONS</p>
+
+        <p><strong>Responsable:</strong> Emanuel Ruiz Alcázar</p>
+
+        <p><strong>Teléfono:</strong> 951 000 1234</p>
+
+        <p><strong>Correo:</strong> cybersolutions.contacto@gmail.com</p>
+
+        <p><strong>Ubicación:</strong> El Camarón, Nejapa de Madero,
+        Yautepec, Oaxaca.</p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>CYBER SOLUTIONS</h3>
+
+    <p>Tu tecnología, nuestra misión.</p>
+
+    <p>Proyecto escolar individual.</p>
+
+    <p>Elaborado por <strong>Emanuel Ruiz Alcázar</strong>.</p>
+
+    <p>© 2026 CYBER SOLUTIONS. Todos los derechos reservados.</p>
+
+</footer>
+
+</body>
+</html>
